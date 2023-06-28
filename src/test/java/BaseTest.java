@@ -14,7 +14,6 @@ public class BaseTest {
 
     @BeforeEach
     public void setUp(){
-       // driver = new ChromeDriver();
 
        ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
